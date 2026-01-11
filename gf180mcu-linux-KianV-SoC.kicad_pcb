@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A0")
+	(title_block
+		(comment 4 "AISLER Project ID: DDGQJPWZ")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power "GND1.Cu")
@@ -98,7 +101,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.05)
-		(solder_mask_min_width 0.25)
 		(pad_to_paste_clearance -0.05)
 		(allow_soldermask_bridges_in_footprints yes)
 		(tenting front back)
@@ -24574,7 +24576,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "board Design support by\nGoran Maholvic"
+	(gr_text "Board design support by\nGoran Maholvic"
 		(at 178.37 183.32 0)
 		(layer "F.SilkS")
 		(uuid "9edc49d5-b939-4950-a43d-8307367f222a")
@@ -24587,8 +24589,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SoC Design: logic destroyer,\nASIC design support Leo moser"
-		(at 223.88 207.6 90)
+	(gr_text "RTL / PCB / ASIC – H. Dabui\nASIC flow & PDK support L. Moser"
+		(at 223.88 205.7 90)
 		(layer "F.SilkS")
 		(uuid "e0940e7a-815e-447b-92df-3d9843e32a25")
 		(effects
@@ -24600,7 +24602,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "board Design review by\nAndrew Wingate"
+	(gr_text "Board design review by\nAndrew Wingate"
 		(at 217.13 227.1 0)
 		(layer "B.SilkS")
 		(uuid "fd8e2a84-9c63-4015-b597-724fc720562b")
