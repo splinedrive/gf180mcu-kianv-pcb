@@ -15416,7 +15416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "4.7uF"
 			(at 424.815 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15450,17 +15450,6 @@
 		)
 		(property "Description" ""
 			(at 424.18 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805ZKY5V5BB226 "
-			(at 424.18 116.84 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
